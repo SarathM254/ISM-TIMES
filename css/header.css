@@ -1,0 +1,99 @@
+/* Header styles */
+header {
+    background-color: #1a237e;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title-container {
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #283593;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background-color: #3949ab;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .title-container {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+} 
