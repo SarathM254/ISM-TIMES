@@ -23,8 +23,7 @@ ISM-TIMES/
 │   └── gallery.css        # Gallery modal styles
 ├── js/
 │   └── main.js           # Simple JavaScript functionality
-├── Logo_ismtimes.jpg     # Website logo
-└── README.md            # This file
+└── Logo_ismtimes.jpg     # Website logo
 ```
 
 ## Usage
